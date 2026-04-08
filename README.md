@@ -115,12 +115,6 @@ OmniDex requires a **Google Gemini API key**.
 
 ---
 
-## 📥 Download APK
-
-[Download Latest APK](https://github.com/your-username/omnidx/releases/latest)
-
----
-
 ## 📦 Installation (APK)
 
 1. Download the APK  
