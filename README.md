@@ -1,4 +1,24 @@
-# OmniDex
+<!-- HERO BANNER -->
+<p align="center">
+  <img src="https://your-image-link.com/banner.png" alt="OmniDex Banner" width="100%">
+</p>
+
+<h1 align="center">OmniDex</h1>
+
+<p align="center">
+  AI-powered Pokédex-style scanner for the real world
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/your-username/omnidx?style=for-the-badge" />
+  <img src="https://img.shields.io/github/downloads/your-username/omnidx/total?style=for-the-badge" />
+  <img src="https://img.shields.io/github/v/release/your-username/omnidx?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/your-username/omnidx?style=for-the-badge" />
+</p>
+
+---
+
+## 🚀 Overview
 
 **OmniDex** is a modern, AI-powered Pokédex-style Android app that uses your camera to scan real-world objects and generate rich, fun, Pokédex-inspired insights using Google Gemini.
 
@@ -6,67 +26,64 @@ Users provide their own Gemini API key, making the app lightweight, scalable, an
 
 ---
 
-## 🚀 Features
+## 🧠 Features
 
-### 🧠 AI-Powered Scanning
-- Scan real-world objects using your camera
+### 🔍 AI-Powered Scanning
+- Scan real-world objects using your camera  
 - Get AI-generated:
-  - Object name
-  - Description
-  - Fun facts
-  - “Did you know?” trivia
-  - Classification / category
+  - Object name  
+  - Description  
+  - Fun facts  
+  - “Did you know?” trivia  
+  - Classification / category  
 
 ---
 
 ### 📱 App Navigation
-- **Explore (Home)** — default screen
-- **Scan** — camera scanner
-- **Collection** — saved scans
-- **Settings** — API key & preferences
+- **Explore (Home)** — default screen  
+- **Scan** — camera scanner  
+- **Collection** — saved scans  
+- **Settings** — API key & preferences  
 
 ---
 
-### 💾 Storage Efficient Design (Core Feature)
+### 💾 Storage Efficient Design
 
 OmniDex is built to be extremely storage-efficient:
 
 #### 📸 Images
-- Converted to **WEBP (lossy)**
-- Resized to **512 × 512**
-- Target size: **~40KB per image**
+- Stored in **WEBP (lossy)**  
+- Resized to **512 × 512**  
+- Target size: **~40KB per image**  
 
-#### 🧾 Text Data
-- Only structured data is stored
-- No raw API responses
-- Minimal and optimized storage usage
-
-#### 📂 Result
-- Thousands of scans can be stored with very low space usage
+#### 🧾 Text
+- Only structured data stored  
+- No raw API responses  
+- Minimal storage footprint  
 
 ---
 
 ### 🎨 UI / UX
-- Dark mode by default
-- Pokédex-inspired red theme
-- Blue glowing scan button
-- Smooth animations and transitions
-- Clean, modern, professional design
+- Dark mode by default  
+- Pokédex-inspired red theme  
+- Blue glowing scan button  
+- Smooth animations and transitions  
+- Clean, modern, professional interface  
 
 ---
 
 ## 📸 Screens
 
-- Scanner View
-- API Setup Screen
-- Explore Categories
-- Collection / History
-- Scan Result
-- Settings
+- Scanner View  
+- API Setup Screen  
+- Explore Categories  
+- Collection / History  
+- Scan Result  
+- Settings  
 
 ---
 
-## ⚙️ How OmniDex Works
+## ⚙️ How It Works
 
 1. Open the app  
 2. Go to **Settings**  
@@ -85,22 +102,20 @@ OmniDex requires a **Google Gemini API key**.
 
 ### Setup Steps
 
-1. Open **Settings** inside the app  
+1. Open **Settings**  
 2. Tap **Manage Gemini API Key**  
 3. Paste your API key  
 4. Save it  
 5. Start scanning  
 
 ### 🔒 Notes
-- API key is stored locally on your device  
-- Not shared with any external server (except Gemini API)  
-- Required for scan functionality  
+- API key is stored locally  
+- Only used for Gemini API requests  
+- Required for scanning  
 
 ---
 
 ## 📥 Download APK
-
-Download the latest version from GitHub Releases:
 
 [Download Latest APK](https://github.com/your-username/omnidx/releases/latest)
 
@@ -108,12 +123,12 @@ Download the latest version from GitHub Releases:
 
 ## 📦 Installation (APK)
 
-1. Download the APK from the Releases page  
-2. Enable **Install from unknown sources** (if required)  
-3. Open the APK file  
+1. Download the APK  
+2. Enable **Install from unknown sources**  
+3. Open the APK  
 4. Install OmniDex  
 5. Launch the app  
-6. Enter your Gemini API key  
+6. Enter your API key  
 7. Start scanning  
 
 ---
@@ -126,44 +141,41 @@ Download the latest version from GitHub Releases:
 - Google Gemini API  
 - Room Database  
 - SharedPreferences / DataStore  
-- WebP Image Compression  
+- WebP Compression  
 - Material Design  
 
 ---
 
 ## 🧠 Architecture
 
-OmniDex follows clean architecture:
-
 - **UI Layer** — Activities / Fragments  
-- **ViewModel Layer** — State & logic  
+- **ViewModel Layer** — Logic  
 - **Repository Layer** — Data handling  
-- **Data Layer** — Room DB + API  
+- **Data Layer** — Room + API  
 
 ---
 
 ## 📂 Local Storage Strategy
 
 ### Images
-- Stored as compressed WebP files  
-- Downscaled to reduce memory usage  
+- Compressed WebP format  
+- Downscaled to reduce memory  
 
 ### Data
-- Structured storage (title, description, etc.)  
-- No redundant data  
-- Optimized for fast loading  
+- Structured minimal storage  
+- No redundancy  
 
 ### History
 - Stored locally  
-- Lazy loaded for performance  
+- Lazy loaded  
 
 ---
 
 ## 🔐 Permissions
 
-- Camera — for scanning  
-- Internet — for Gemini API  
-- Storage — for saving scan results  
+- Camera — scanning  
+- Internet — Gemini API  
+- Storage — saving results  
 
 ---
 
@@ -171,28 +183,26 @@ OmniDex follows clean architecture:
 
 ### ❌ Scan not working
 - Check API key  
-- Check internet connection  
-- Ensure camera permission is enabled  
+- Check internet  
+- Enable camera permission  
 
-### ❌ No results from AI
-- Verify Gemini API key  
-- Ensure API quota is not exceeded  
+### ❌ No results
+- Verify API key  
+- Check API quota  
 
 ### ❌ App crashes
 - Restart app  
 - Reinstall APK  
-- Check device compatibility  
 
 ---
 
 ## 🛣️ Roadmap
 
-- Offline viewing improvements  
 - Favorites / bookmarks  
-- Better category filtering  
-- Performance optimizations  
-- Export scan results  
-- UI enhancements  
+- Better filtering  
+- Performance improvements  
+- Export scan data  
+- UI polish  
 
 ---
 
@@ -200,11 +210,9 @@ OmniDex follows clean architecture:
 
 _Add screenshots here_
 
-Example:
-
-![Scanner](assets/scanner.png)
-![Explore](assets/explore.png)
-![Result](assets/result.png)
+![Scanner](assets/scanner.png)  
+![Explore](assets/explore.png)  
+![Result](assets/result.png)  
 
 ---
 
@@ -218,17 +226,10 @@ Example:
 
 ## ⚠️ Disclaimer
 
-OmniDex is inspired by the Pokédex concept but is not affiliated with Pokémon, Nintendo, or The Pokémon Company.
+OmniDex is inspired by the Pokédex concept and is not affiliated with Pokémon, Nintendo, or The Pokémon Company.
 
 ---
 
 ## 📄 License
 
 MIT License
-
----
-
-## 📬 Contact
-
-- GitHub Issues: https://github.com/your-username/omnidx/issues  
-- Email: your-email@example.com  
