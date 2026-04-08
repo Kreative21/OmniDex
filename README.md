@@ -1,6 +1,6 @@
 <!-- HERO BANNER -->
 <p align="center">
-  <img src="https://i.ibb.co/2Y0kJPd3/banner.png" alt="OmniDex Banner" width="100%">
+  <img src="https://i.ibb.co/TM9k36n5/banner.png" alt="OmniDex Banner" width="100%">
 </p>
 
 <h1 align="center">OmniDex</h1>
