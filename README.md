@@ -106,21 +106,129 @@ Download the latest version from GitHub Releases:
 
 ---
 
-## 📦 Installation
+## 📦 Installation (APK)
 
-### Option 1: Install APK
-
-1. Download APK from Releases page  
+1. Download the APK from the Releases page  
 2. Enable **Install from unknown sources** (if required)  
-3. Open APK and install OmniDex  
-4. Launch the app  
-5. Enter your Gemini API key  
-6. Start scanning  
+3. Open the APK file  
+4. Install OmniDex  
+5. Launch the app  
+6. Enter your Gemini API key  
+7. Start scanning  
 
 ---
 
-### Option 2: Run from Source
+## 🧱 Tech Stack
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/omnidx.git
+- Kotlin  
+- Android Studio  
+- CameraX  
+- Google Gemini API  
+- Room Database  
+- SharedPreferences / DataStore  
+- WebP Image Compression  
+- Material Design  
+
+---
+
+## 🧠 Architecture
+
+OmniDex follows clean architecture:
+
+- **UI Layer** — Activities / Fragments  
+- **ViewModel Layer** — State & logic  
+- **Repository Layer** — Data handling  
+- **Data Layer** — Room DB + API  
+
+---
+
+## 📂 Local Storage Strategy
+
+### Images
+- Stored as compressed WebP files  
+- Downscaled to reduce memory usage  
+
+### Data
+- Structured storage (title, description, etc.)  
+- No redundant data  
+- Optimized for fast loading  
+
+### History
+- Stored locally  
+- Lazy loaded for performance  
+
+---
+
+## 🔐 Permissions
+
+- Camera — for scanning  
+- Internet — for Gemini API  
+- Storage — for saving scan results  
+
+---
+
+## 🧪 Troubleshooting
+
+### ❌ Scan not working
+- Check API key  
+- Check internet connection  
+- Ensure camera permission is enabled  
+
+### ❌ No results from AI
+- Verify Gemini API key  
+- Ensure API quota is not exceeded  
+
+### ❌ App crashes
+- Restart app  
+- Reinstall APK  
+- Check device compatibility  
+
+---
+
+## 🛣️ Roadmap
+
+- Offline viewing improvements  
+- Favorites / bookmarks  
+- Better category filtering  
+- Performance optimizations  
+- Export scan results  
+- UI enhancements  
+
+---
+
+## 📸 Screenshots
+
+_Add screenshots here_
+
+Example:
+
+![Scanner](assets/scanner.png)
+![Explore](assets/explore.png)
+![Result](assets/result.png)
+
+---
+
+## 🙌 Acknowledgments
+
+- Google Gemini (AI engine)  
+- Google Stitch (UI inspiration)  
+- Android Studio  
+
+---
+
+## ⚠️ Disclaimer
+
+OmniDex is inspired by the Pokédex concept but is not affiliated with Pokémon, Nintendo, or The Pokémon Company.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 📬 Contact
+
+- GitHub Issues: https://github.com/your-username/omnidx/issues  
+- Email: your-email@example.com  
