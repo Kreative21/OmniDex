@@ -11,9 +11,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/Kreative21/OmniDex?style=for-the-badge" />
-  <img src="https://img.shields.io/github/downloads/your-username/omnidx/total?style=for-the-badge" />
-  <img src="https://img.shields.io/github/v/release/your-username/omnidx?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/your-username/omnidx?style=for-the-badge" />
+  <img src="https://img.shields.io/github/downloads/Kreative21/OmniDex/total?style=for-the-badge" />
+  <img src="https://img.shields.io/github/v/release/Kreative21/OmniDex?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Kreative21/OmniDex?style=for-the-badge" />
 </p>
 
 ---
