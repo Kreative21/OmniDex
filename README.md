@@ -24,6 +24,29 @@
 
 ---
 
+## ⬇️ Download
+
+<p align="center">
+  <a href="https://github.com/Kreative21/OmniDex/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Latest%20APK-red?style=for-the-badge&logo=android" />
+  </a>
+</p>
+
+### 📦 How to Install
+
+1. Click the **Download button above**  
+2. You will be taken to the latest release page  
+3. **Scroll down to the Assets section**  
+4. Find the `.apk` file and download it  
+5. Enable **Install from unknown sources**  
+6. Open the downloaded APK  
+7. Install OmniDex  
+8. Launch the app  
+9. Enter your API key  
+10. Start scanning  
+
+---
+
 ## 🧠 Features
 
 ### 🔍 AI-Powered Scanning
@@ -125,18 +148,6 @@ OmniDex requires a **Google Gemini API key**.
 - API key is stored locally  
 - Only used for Gemini API requests  
 - Required for scanning  
-
----
-
-## 📦 Installation (APK)
-
-1. Download the APK  
-2. Enable **Install from unknown sources**  
-3. Open the APK  
-4. Install OmniDex  
-5. Launch the app  
-6. Enter your API key  
-7. Start scanning  
 
 ---
 
