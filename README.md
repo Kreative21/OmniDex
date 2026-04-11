@@ -38,12 +38,11 @@
 2. You will be taken to the latest release page  
 3. **Scroll down to the Assets section**  
 4. Find the `.apk` file and download it  
-5. Enable **Install from unknown sources**  
-6. Open the downloaded APK  
-7. Install OmniDex  
-8. Launch the app  
-9. Enter your API key  
-10. Start scanning  
+5. Open the downloaded APK  
+6. Install OmniDex  
+7. Launch the app  
+8. Enter your API key  
+9. Start scanning  
 
 ---
 
