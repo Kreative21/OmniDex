@@ -20,9 +20,7 @@
 
 ## 🚀 Overview
 
-**OmniDex** is a modern, AI-powered Pokédex-style Android app that uses your camera to scan real-world objects and generate rich, fun, Pokédex-inspired insights using Google Gemini.
-
-Users provide their own Gemini API key, making the app lightweight, scalable, and cost-free for the developer.
+**OmniDex** is a modern Pokédex-style Android app that uses your camera to scan real-world objects and generate rich, fun, Pokédex-inspired insights using Google Gemini.
 
 ---
 
@@ -36,6 +34,21 @@ Users provide their own Gemini API key, making the app lightweight, scalable, an
   - Fun facts  
   - “Did you know?” trivia  
   - Classification / category  
+
+---
+
+### 🔄 Smart Updates
+- Automatically **checks for updates on every app startup**
+- Keeps users informed about the latest version
+- Seamless and non-intrusive update experience
+
+---
+
+### 💾 Backup & Restore System
+- Create **compressed backups** of your app data  
+- Efficient storage using optimized file handling  
+- Restore backups **directly without manual extraction**  
+- Ensures data safety and easy migration  
 
 ---
 
