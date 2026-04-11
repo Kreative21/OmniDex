@@ -226,7 +226,6 @@ OmniDex requires a **Google Gemini API key**.
 ## 🙌 Acknowledgments
 
 - Google Gemini (AI engine)  
-- Google Stitch (UI inspiration)  
 - Android Studio  
 
 ---
