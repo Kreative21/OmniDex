@@ -59,6 +59,30 @@
 
 ---
 
+### 🎯 Quests System
+- Complete your own **OmniDex** by scanning items  
+- Includes **151 items** across:
+  - Animals  
+  - Plants  
+  - Food  
+  - Objects  
+- Adds a fun, goal-based experience to scanning  
+
+---
+
+### 👤 User Profile
+- Create your **profile with name and photo**  
+- View your **scan progress dashboard**  
+- Personalize your OmniDex experience  
+
+---
+
+### 🔍 Smart Scanner Controls
+- Smooth **Zoom In / Zoom Out** while scanning  
+- Better framing and object capture  
+
+---
+
 ### 🔄 Smart Updates
 - Automatically **checks for updates on every app startup**
 - Keeps users informed about the latest version
@@ -68,17 +92,23 @@
 
 ### 💾 Backup & Restore System
 - Create **compressed backups** of your app data  
-- Efficient storage using optimized file handling  
-- Restore backups **directly without manual extraction**  
+- Restore backups **instantly without manual steps**  
+- Backup reminder shown before updating  
 - Ensures data safety and easy migration  
 
 ---
 
-### 📱 App Navigation
-- **Explore (Home)** — default screen  
-- **Scan** — camera scanner  
-- **Collection** — saved scans  
-- **Settings** — API key & preferences  
+### 🗂 Collection Management
+- **Long press to select items**  
+- Select multiple or **select all**  
+- Delete items instantly in bulk  
+- Faster and easier history management  
+
+---
+
+### ⚙️ Organized Settings
+- Settings are now **categorized by functionality**  
+- Cleaner layout and easier navigation  
 
 ---
 
@@ -92,7 +122,7 @@ OmniDex is built to be extremely storage-efficient:
 - Target size: **~40KB per image**  
 
 #### 🧾 Text
-- Only structured data stored  
+- Stored in **structured JSON format**  
 - No raw API responses  
 - Minimal storage footprint  
 
@@ -104,6 +134,7 @@ OmniDex is built to be extremely storage-efficient:
 - Blue glowing scan button  
 - Smooth animations and transitions  
 - Clean, modern, professional interface  
+- Continuous UI improvements across updates  
 
 ---
 
@@ -115,6 +146,8 @@ OmniDex is built to be extremely storage-efficient:
 - Collection / History  
 - Scan Result  
 - Settings  
+- User Profile  
+- Quests  
 
 ---
 
@@ -179,7 +212,7 @@ OmniDex requires a **Google Gemini API key**.
 - Downscaled to reduce memory  
 
 ### Data
-- Structured minimal storage  
+- Structured minimal storage (JSON-based)  
 - No redundancy  
 
 ### History
@@ -232,6 +265,12 @@ OmniDex requires a **Google Gemini API key**.
   <img src="assets/profile.jpg" width="250"/>
   <img src="assets/quest.jpg" width="250"/>
 </p>
+
+---
+
+## 🛡️ Security
+- ✅ App verified by [VirusTotal](https://www.virustotal.com/gui/home/upload)  
+- Safe to download and install  
 
 ---
 
