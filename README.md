@@ -229,6 +229,8 @@ OmniDex requires a **Google Gemini API key**.
   <img src="assets/scanner.jpg" width="250"/>
   <img src="assets/explore.jpg" width="250"/>
   <img src="assets/result.jpg" width="250"/>
+  <img src="assets/profile.jpg" width="250"/>
+  <img src="assets/quest.jpg" width="250"/>
 </p>
 
 ---
